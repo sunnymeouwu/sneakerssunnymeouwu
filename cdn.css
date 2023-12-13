@@ -1,0 +1,374 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anonymous Pro", monospace;
+  }
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.item-1.html {
+    list-style: none;
+}
+
+body {
+    font-family: "Anonymous Pro", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F1F1F1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #A1A6B4;
+    background: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 24px 0 24px;
+}
+
+.logo-link {
+    max-width: 215px;
+}
+
+.logo-link:hover {
+    transform: scale(1.01);
+    transition: transform ease-in-out 200ms;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #121723;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content {
+    margin: 32px 0;
+    max-width: 1140px;
+}
+
+.sneaker {
+    display: flex;
+    width: 1140px;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 50px;
+    background: var(--white-100, #FFF);
+}
+
+.sneaker-image {
+    display: flex;
+    height: 600px;
+    align-self: stretch;
+    width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.sneaker-info {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card-info {
+    display: flex;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+}
+
+p {
+    font-family: "Anonymous Pro", sans-serif;
+    color: #121723;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+h1 {
+    align-self: stretch;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+}
+
+h2 {
+    flex: 1 0 0;
+    color: #121723;
+font-family: Anonymous Pro;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+}
+
+h3 {
+    color: #121723;
+font-family: Anonymous Pro;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+h6 {
+    color: #121723;
+font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #121723;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1140px;
+    margin: 32px 0;
+}
+
+.footer__logo-link {
+    max-width: 300px;
+    width: 100%;
+}
+
+.footer__logo-link:hover {
+    transform: scale(1.01);
+    transition: transform ease-in-out 200ms;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1140px;
+    border-top: 1px solid #A1A6B4;
+}
+
+.copyright-text {
+    color: #A1A6B4;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction:column ;
+    flex: 1 0 0;
+    color: #121723;
+font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.info-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.info-2 {
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+    gap: 20px;
+text-align: right;
+font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.info-3 {
+    color: #121723;
+font-family: Anonymous Pro;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.hr1 {
+    height: 1px;
+align-self: stretch;
+background: #121723;
+}
+
+@media screen and (max-width:375px) {
+    .header-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+        width: auto;
+    }
+
+    .sneaker {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+        width: auto; 
+    }
+
+    .sneaker-image {
+        width: auto;
+        height: auto;
+        align-self: stretch;
+        
+    }
+
+    .sneaker-info {
+        width: auto;
+        font-size: 32px;
+    }
+
+    .card-info {
+        width: auto;
+        font-size: 32px;
+        flex-direction: column;
+    }
+
+    p {
+        color: #121723;
+        font-family: Anonymous Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+    h1 {
+        color: #121723;
+font-family: Anonymous Pro;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 32px */
+    }
+
+    h2 {
+        color: #121723;
+font-family: Anonymous Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 20px */
+    }
+
+    h3 {
+        color: #121723;
+font-family: Anonymous Pro;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+
+    h6 {
+        color: #121723;
+font-family: Anonymous Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
